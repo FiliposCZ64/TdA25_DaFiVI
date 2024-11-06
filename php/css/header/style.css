@@ -3,16 +3,35 @@ header {
 }
 header .header-content {
   max-width: 1180px;
-  margin: auto 0px;
+  margin: 0px auto;
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
   align-items: center;
 }
 header .header-content #logo img {
-  width: 300px;
-  padding: 31px;
+  width: 250px;
+  padding: 26px;
+}
+header .header-content nav {
+  margin-right: 5%;
+  flex-grow: 4;
+}
+header .header-content nav li {
+  list-style-type: none;
+  margin-left: 5%;
+}
+header .header-content nav li a {
+  text-decoration: none;
+  font-family: "Dosis";
+  font-size: 25px;
+  color: #fff;
+}
+header .header-content nav li a:hover {
+  color: #E31837;
+  transition: 0.15s;
 }
 header .header-content #mobile-nav-icon {
-  display: none;
   cursor: pointer;
+  margin-right: 3%;
 }/*# sourceMappingURL=style.css.map */

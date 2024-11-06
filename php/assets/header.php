@@ -7,10 +7,12 @@
         </div>
     
         <nav>
-            <a href="#">Nová hra</a>
-            <a href="#">Historie her</a>
-            <a href="#">O nás</a>
-            <a href="#">Kontakt</a>
+            <ul>
+                <li><a href="#">Kontakt</a></li>
+                <li><a href="#">O nás</a></li>
+                <li><a href="#">Historie her</a></li>
+                <li><a href="#">Nová hra</a></li>
+            </ul>
         </nav>
     
         <div id="mobile-nav-icon">

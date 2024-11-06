@@ -9,16 +9,39 @@ header {
 
         display: flex;
         flex-direction: row;
+        justify-content: space-between;
         align-items: center;
     
         #logo img {
-            width: 300px;
-            padding: 31px;
+            width: 250px;
+            padding: 26px;
         }
+
+        nav {
+            margin-right: 5%;
+            flex-grow: 4;
+            
+            li {
+                list-style-type: none;
+                margin-left: 5%;
     
+                a {
+                    text-decoration: none;
+                    font-family: $main_font;
+                    font-size: 25px;
+                    color: $text_color;
+        
+                    &:hover {
+                        color: $second_main_color;
+                        transition: 0.15s;
+                    }
+                }
+            }
+        }
+            
         #mobile-nav-icon {
-            display: none;
             cursor: pointer;
+            margin-right: 3%;
         }
     }
 }
