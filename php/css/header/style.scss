@@ -2,7 +2,12 @@
 @import "../partials/mixins";
 
 header {
-    background-color: $first_main_color;
+    background-color: $header_background_color;
+
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    left: 0px;
 
     .header-content {
         @include container;
@@ -29,10 +34,11 @@ header {
                     text-decoration: none;
                     font-family: $main_font;
                     font-size: 25px;
-                    color: $text_color;
+                    font-weight: 600;
+                    color: $header_text_color;
         
                     &:hover {
-                        color: $second_main_color;
+                        color: #ffffffad;
                         transition: 0.15s;
                     }
                 }

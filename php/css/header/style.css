@@ -1,5 +1,9 @@
 header {
-  background-color: #0070BB;
+  background-color: #724479;
+  position: fixed;
+  top: 0px;
+  right: 0px;
+  left: 0px;
 }
 header .header-content {
   max-width: 1180px;
@@ -25,10 +29,11 @@ header .header-content nav li a {
   text-decoration: none;
   font-family: "Dosis";
   font-size: 25px;
+  font-weight: 600;
   color: #fff;
 }
 header .header-content nav li a:hover {
-  color: #E31837;
+  color: rgba(255, 255, 255, 0.6784313725);
   transition: 0.15s;
 }
 header .header-content #mobile-nav-icon {

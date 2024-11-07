@@ -1,7 +1,10 @@
 // ========== COLORS ==========
-$first_main_color: #0070BB;
-$second_main_color: #E31837;
-$text_color: #fff;
+$header_background_color: #724479;
+$header_foreground_color: #fff;
+$header_text_color: #fff;
+
+$footer_background_color: $header_background_color;
+$footer_text_color: #ffffffd2;
 
 // ========== FONT ==========
 $main_font: "Dosis";

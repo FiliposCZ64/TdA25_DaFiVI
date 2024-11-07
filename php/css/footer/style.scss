@@ -1,0 +1,15 @@
+@import "../partials/variables";
+
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    background-color: $footer_background_color;
+    font-family: 'Dosis';
+    color: $footer_text_color;
+    text-align: center;
+    min-height: 50px;
+    padding: 10px;
+}

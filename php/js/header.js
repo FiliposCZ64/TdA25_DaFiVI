@@ -10,14 +10,10 @@ divIcon.addEventListener("click", function(){
         menuIcon.style.display = "none"
         crossIcon.style.display = "block"
         nav.style.display = "block"
-        header.classList.remove("active-back")
-        nav.classList.add("active-back")
     } else {
         menuIcon.style.display = "block"
         crossIcon.style.display = "none"
         nav.style.display = "none"
-        header.classList.add("active-back")
-        nav.classList.remove("active-back")
     }
 })
 
@@ -26,7 +22,5 @@ main.addEventListener("click", function(){
         menuIcon.style.display = "block"
         crossIcon.style.display = "none"
         nav.style.display = "none"
-        header.classList.add("active-back")
-        nav.classList.remove("active-back")
     }
 })

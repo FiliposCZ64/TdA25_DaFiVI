@@ -14,7 +14,7 @@
     display: none;
     position: absolute;
     top: 100px;
-    background-color: #0070BB;
+    background-color: #724479;
     width: 100%;
     z-index: 100;
   }
@@ -23,6 +23,9 @@
     display: block;
     text-align: center;
     margin: 10px 0px;
+  }
+  nav li a:hover {
+    color: #fff;
   }
   #hamburger {
     display: block;
